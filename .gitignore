@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# TELEMETRY globale (local-only, jamais committe)
+TELEMETRY/sessions.json
+TELEMETRY/astropath.log
+
+# Fichiers temporaires audio pour transcription
+audio_tmp/
+
+# OS
+.DS_Store
+Thumbs.db
