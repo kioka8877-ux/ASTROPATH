@@ -1,0 +1,31 @@
+# DOCTRINE/registre_topics.yml
+# =====================================
+# Mapping 1 Topic Telegram = 1 Repo GitHub cible.
+# ASTROPATH charge ce fichier au demarrage (et a chaque /forge refresh).
+# Ce fichier est versionne sur GitHub, jamais en local cache.
+#
+# Pour ajouter un projet : ajoute une entree ci-dessous, commit, le bot
+# recharge au prochain /forge ou redemarrage.
+
+topics:
+
+  - telegram_topic_id: 42
+    nom: OMNIS_WATCH
+    repo: kioka8877-ux/OMNIS_WATCH
+    branche: main
+    dossier_local: D:\Projects\OMNIS_WATCH
+    campaign_log: TRACKING/OMNIS_CAMPAIGN_LOG.md
+
+  - telegram_topic_id: 117
+    nom: CRUSADER
+    repo: kioka8877-ux/CRUSADER
+    branche: main
+    dossier_local: D:\Projects\CRUSADER
+    campaign_log: gamma/TRACKING/CRS_CAMPAIGN_LOG.md
+
+  - telegram_topic_id: 8
+    nom: PERTURABO
+    repo: kioka8877-ux/PERTURABO
+    branche: main
+    dossier_local: D:\Projects\PERTURABO
+    campaign_log: MONDES_FORGES/TRACKING/PERTURABO_CAMPAIGN_LOG.md
