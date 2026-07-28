@@ -1,4 +1,14 @@
+# ASTROPATH - dependances minimales
+# Installation : pip install -r requirements.txt
+
+# Bot Telegram (async, v20+)
 python-telegram-bot[all]>=20.0
+
+# Chargement du .env
 python-dotenv>=1.0.0
-groq>=0.11.0
+
+# Lecture du registre DOCTRINE/registre_topics.yml
 PyYAML>=6.0
+
+# Note : Groq Whisper est appele via urllib natif (pas de SDK groq requis).
+#         Aucune autre dependance tierce necessaire - doctrine "stdlib first".
